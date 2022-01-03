@@ -27,6 +27,7 @@ public class fileSearch{
         System.out.println();
         System.out.println("Searching duplicates for : "+dirName+"  ...");
         ArrayList<String> duplicateDir = getDuplicateDir(dirName);
+        
         if(duplicateDir.isEmpty())
         {
             System.out.println("No duplicate files were found!");
